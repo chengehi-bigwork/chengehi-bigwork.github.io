@@ -4,6 +4,7 @@ function $(selectors,parentNode){
 		return [].slice.call(parentNode.querySelectorAll(selectors));
 	}
 
+
 function addClass(node, className){
     var current = node.className || "";
     if ((" " + current + " ").indexOf(" " + className + " ") === -1) {
